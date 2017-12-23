@@ -3,34 +3,82 @@ Please answer the below core-java Questions:
 
 What jdk contains or composed of and define each components?
 What is IDE?
+-A java IDE stands for Integrated Development Environment.
+
 What are the IDEs available in the market to support java?
+-IDEs are available Eclipse,Intellij,Netbeans,BlueJ,Oracle etc.
+
 Explain the entire java life cycle.
 what is class?
+Ans: Class is blue print of an Object.
 What is object?
+Ans: Object is instance of a class.
+
 What is the entry point of an application?
 Why main is static?
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
-what is Access Specifier?
+what is Access Specifier
+Ans: Access Specifier = Public,Protected,Private.
+
 What is OOP ? Define each feature of java OOP.
+Ans: Object Oriented Programming.
+1)Abstraction: Abstraction is implementation hiding.
+2)Encapsulation: Encapsulation is data hiding.
+3)Inheritance: Inheritance is way to acquire properties from one class to another class.
+4)Polymorphism: Polymorphism is the ability of an Object to take on many forms.
+
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance?
+Ans: No
+
 What is method overloading and when it happens?
+Ans:Method Overloading is a feature that allows a class to have more than one method having the same name.
+
 Explain exceptions in java and how to handle it.
+Ans:
 What is static keyword in java? How it has been used in variables and methods ?
 What is final and how it has been used variables and methods?
+Ans: A Java method with the final keyword is called a final method and it can not be overridden in the subclass.
+     final variables are nothing but constants.We cannot change the value of a final variable once it is initialized.
+
+
+
+
+
 What is final, finally and finalize?
+Ans: Final class can't be inherited, final method can't be overridden and final variable value can't be changed.
+ Finally is used to place important code, it will be executed whether exception is handled or not.
+ Finalize is used to perform clean up processing just before object is garbage collected.
+
 What is a constructor ?
+Ans: The purpose of Constructor is initialize Object.The constructor name should be same name as class name.A class can have multiple constructor.
+
 What is "this" keyword in java ?
+Ans: Operator.
+
 What is "super" keyword in java?
+Ans: Super is used in subclass’s constructor to initialize it’s super
+    class constructor.
+
 What is JVM stand for ?
+Ans: Java Virtual Machine.
+
 What version of java are you using?
+Ans: 9.0.1 Version.
+
 What is JAR stand for ?
+Ans: Java Runtime Environment.
+
 What is compile time and run time?
 What is heap?
+Ans: The heap is the runtime data area from which memory for all class instances and arrays is allocated.
+ The heap is created on virtual machine start-up.
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
+Ans: singleton class is a class that can have only one object at a time.
+
 What is Serialization and Deserialization?
 Which one will take more memory, an int or Integer?
 Why is String Immutable in Java?
